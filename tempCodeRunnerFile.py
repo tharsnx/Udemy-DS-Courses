@@ -1,5 +1,3 @@
-r(left,height,name_instr = name_instr,width=0.8,color = ['blue','pink'])
-    plt.xlabel('instructors')
-    plt.ylabel('Average Ratings')
-    plt.title('test1')
-    plt.show()
+tructors')
+    # plt.ylabel('Average Ratings')
+    # plt.title('test1')

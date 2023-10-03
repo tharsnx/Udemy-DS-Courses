@@ -1,25 +1,22 @@
-#!/usr/bin/env python3
+# importing the required module
 import matplotlib.pyplot as plt
 
-# x-coordinates of left sides of bars
-left = [1, 2, 3, 4, 5]
+# x axis values
+x = [1,2,3]
+# corresponding y axis values
+y = [2,4,1]
 
-# heights of bars
-height = [10, 24, 36, 40, 5]
+# plotting the points
+plt.switch_backend('wxAgg')
+plt.plot(x, y)
 
-# labels for bars
-tick_label = ['one', 'two', 'three', 'four', 'five']
-
-# plotting a bar chart
-plt.bar(left, height, tick_label = tick_label,
-		width = 0.8, color = ['red', 'green'])
-
-# naming the x-axis
+# naming the x axis
 plt.xlabel('x - axis')
-# naming the y-axis
+# naming the y axis
 plt.ylabel('y - axis')
-# plot title
-plt.title('My bar chart!')
+
+# giving a title to my graph
+plt.title('My first graph!')
 
 # function to show the plot
 plt.show()
